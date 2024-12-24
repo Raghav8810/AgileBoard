@@ -1,13 +1,6 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2020,    // Use the latest ECMAScript version
-    "sourceType": "module"  // Allow "import" statements
-  },
+  "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": "off"
+    "no-unused-vars": ["warn"]
   }
 }
