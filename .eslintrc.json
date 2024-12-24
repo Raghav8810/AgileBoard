@@ -3,6 +3,10 @@
     "eslint:recommended",
     "plugin:react/recommended"
   ],
+  "parserOptions": {
+    "ecmaVersion": 2020,    // Use the latest ECMAScript version
+    "sourceType": "module"  // Allow "import" statements
+  },
   "rules": {
     "react/no-unescaped-entities": "off"
   }
