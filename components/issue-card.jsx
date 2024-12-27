@@ -20,7 +20,17 @@ const priorityColor = {
   HIGH: "border-orange-400",
   URGENT: "border-red-400",
 };
-
+/**
+ * IssueCard component displays a summary of an issue and allows interaction
+ * through a dialog for more details, updating, or deleting the issue.
+ *
+ * @param {Object} props - The component props.
+ * @param {Object} props.issue - The issue object containing details like title, status, priority, assignee, and createdAt.
+ * @param {boolean} [props.showStatus=false] - Flag to show the status badge.
+ * @param {Function} [props.onDelete] - Callback function to handle issue deletion.
+ * @param {Function} [props.onUpdate] - Callback function to handle issue updates.
+ * @returns {JSX.Element} The rendered IssueCard component.
+ */
 export default function IssueCard({
   issue,
   showStatus = false,

@@ -18,6 +18,7 @@ import {
 import CompanyCarousel from "@/components/company-carousel";
 import Image from "next/image";
 
+//faqs
 const faqs = [
   {
     question: "What is AgileBoard?",
@@ -51,7 +52,7 @@ const faqs = [
   },
 ];
 
-
+//features data
 const features = [
   {
     title: "Seamless Collaboration",
